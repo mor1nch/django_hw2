@@ -1,0 +1,54 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+env/
+.venv/
+.env/
+
+# Django
+db.sqlite3
+*.sqlite3
+/media/
+staticfiles/
+static/
+*.log
+
+# Environment variables
+.env
+*.env
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.swn
+*.s#
+
+# macOS
+.DS_Store
+
+# Byte-compiled / optimized / DLL files
+*.pyc
+
+# Test result files
+.coverage
+*.cover
+*.py,cover
+.hypothesis/
+.tox/
+
+# Deployment files
+*.pid
+*.seed
+*.pid.lock
+
+# Build files
+build/
+dist/
+*.egg-info/
